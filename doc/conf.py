@@ -26,6 +26,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_theme_options = {
+    'collapse_navigation': False,
+}
 html_context = {
   'display_github': True,
   'github_user': 'Spore-Void',
