@@ -26,3 +26,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_context = {
+  'display_github': True,
+  'github_user': 'Spore-Void',
+  'github_repo': 'CotL-FlakeWiki',
+  'github_version': 'main/doc/',
+}
