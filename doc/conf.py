@@ -34,4 +34,5 @@ html_context = {
   'github_user': 'Spore-Void',
   'github_repo': 'CotL-FlakeWiki',
   'github_version': 'main/doc/',
+  'collapse_navigation': False,
 }
