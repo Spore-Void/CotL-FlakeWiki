@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Example'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'CotL FlakeWiki'
+copyright = 'YYYY'
+author = 'Cool people at StormFlake Modding Team'
 release = '0.1'
 
 

@@ -1,4 +1,5 @@
-# Documentation example
+# CotL FlakeWiki
 
-We use this example in the lesson
-[How to document your research software](https://coderefinery.github.io/documentation/).
+This wiki aims to contain documentation relevant for modding CotL.
+
+[View Wiki on Github Pages](https://spore-void.github.io/CotL-FlakeWiki/index.html)
