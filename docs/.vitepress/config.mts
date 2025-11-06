@@ -6,8 +6,12 @@ const config: UserConfig<NoInfer<DefaultTheme.Config>> = {
   description: "Wiki documenting the process of modding CotL.",
   base: "/CotL-FlakeWiki/",
   lastUpdated: true,
+  head: [["link", { rel: "icon", href: "/CotL-FlakeWiki/favicon.webp" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      src: "/logo.webp",
+    },
     nav: [
       { text: "Home", link: "/" },
       { text: "Getting Started", link: "/getting-started/" },
