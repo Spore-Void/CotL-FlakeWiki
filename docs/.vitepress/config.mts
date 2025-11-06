@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "CotL Modding FlakeWiki",
   description: "Wiki documenting the process of modding CotL.",
+  base: "/CotL-FlakeWiki/",
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
