@@ -1,6 +1,6 @@
 # Class PlayerWeapon
 
-::: warn
+::: warning
 🧹 Stub: Incomplete and may contain errors
 :::
 
