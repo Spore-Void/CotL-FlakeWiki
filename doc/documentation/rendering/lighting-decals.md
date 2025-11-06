@@ -1,3 +1,0 @@
-# Lighting Decals
-
-(stub)

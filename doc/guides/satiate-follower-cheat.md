@@ -1,3 +1,0 @@
-# Satiate Follower Cheat
-
-(Stub)
