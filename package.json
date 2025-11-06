@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "typescript": "^5.9.3",
     "vitepress": "^2.0.0-alpha.12",
     "vue": "^3.5.23"
   },
@@ -7,5 +8,8 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.0"
   }
 }
