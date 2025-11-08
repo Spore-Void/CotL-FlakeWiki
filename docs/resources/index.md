@@ -1,4 +1,4 @@
-# Guides and Examples
+# Resources
 
 ::: warning
 Under construction

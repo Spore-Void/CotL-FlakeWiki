@@ -15,8 +15,8 @@ const config: UserConfig<NoInfer<DefaultTheme.Config>> = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Getting Started", link: "/getting-started/" },
-      { text: "Guides and Examples", link: "/guides-and-examples/" },
-      { text: "Reference", link: "/reference/" },
+      { text: "Resources", link: "/resources/" },
+      { text: "Assembly Reference", link: "/assembly-reference/" },
     ],
 
     sidebar: [
@@ -44,21 +44,32 @@ const config: UserConfig<NoInfer<DefaultTheme.Config>> = {
         ],
       },
       {
-        text: "Guides and Examples",
+        text: "Resources",
         collapsed: false,
-        link: "/guides-and-examples/",
-        items: [],
+        link: "/resources/",
+        items: [
+          {
+            text: "Rendering",
+            collapsed: true,
+            items: [
+              {
+                text: "Rendering pipeline analysis",
+                link: "/resources/rendering/rendering-pipeline-analysis.md",
+              },
+            ],
+          },
+        ],
       },
       {
-        text: "Reference",
+        text: "Assembly Reference",
         collapsed: true,
-        link: "/reference/",
+        link: "/assembly-reference/",
         items: (() => {
           // References are auto crawled (only one level currently)
           // Very ugly bad code :(
           // If you read this, all your followers will starve.
           const items: ({ text: string } & DefaultTheme.SidebarItem)[] = [];
-          const dirEntries = fs.readdirSync("./docs/reference/", {
+          const dirEntries = fs.readdirSync("./docs/assembly-reference/", {
             withFileTypes: true,
           });
           for (const entry of dirEntries) {
@@ -84,7 +95,7 @@ const config: UserConfig<NoInfer<DefaultTheme.Config>> = {
               items.push({
                 text: newTitle,
                 // No url sanitization :(
-                link: "/reference/" + trimmedTitle,
+                link: "/assembly-reference/" + trimmedTitle,
               });
             }
           }

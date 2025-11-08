@@ -11,11 +11,11 @@ hero:
       text: Getting started
       link: /getting-started/
     - theme: alt
-      text: Guides and Examples
-      link: /guides-and-examples/
+      text: Resources
+      link: /resources/
     - theme: alt
-      text: Reference
-      link: /reference/
+      text: Assembly Reference
+      link: /assembly-reference/
 ---
 
 Fan created wiki to document findings about modding the game Cult of the Lamb. Created to aid the StormFlake modding project.

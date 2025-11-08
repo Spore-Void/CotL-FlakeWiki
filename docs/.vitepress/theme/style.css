@@ -92,18 +92,14 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #ff7829 15%,
-    #ec1349 50%,
-    #5e19df 90%
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #ff7829 15%,
+      #ec1349 50%,
+      #5e19df 90%);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #bd34fe 50%,
+      #47caff 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -138,3 +134,20 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+body::after {
+  content: "";
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 64px;
+  height: auto;
+  pointer-events: none;
+  background: url(/CotL-FlakeWiki/favicon.webp);
+  background-repeat: repeat;
+  background-size: auto;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter:drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.589));
+}
